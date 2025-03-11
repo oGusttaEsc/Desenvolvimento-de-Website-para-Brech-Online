@@ -46,11 +46,12 @@ button{
 
 .slideshow{
     position: relative;
+
 }
 
 .slides{
     height: 100%;
-
+    color: #fff;
 }
 
 .slide{
@@ -135,3 +136,11 @@ button{
     text-align: left;
     width: 900px;
 }
+
+.carrossel{
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.container-imagens
