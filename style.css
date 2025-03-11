@@ -120,5 +120,14 @@ button{
 }
 
 #sobre{
+    margin-top: 200px;
     display: flex;
+}
+
+#imagem_sobre{
+    width: 800px;
+}
+
+#texto_sobre{
+    text-align: left;
 }
