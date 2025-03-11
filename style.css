@@ -26,7 +26,7 @@ body{background-color: rgba(88, 60, 0, 0.815);
 }
 
 #texto_inicial{
-    padding-top: 60px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -122,6 +122,19 @@ button{
 
 #sobre{
     display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 200px;
+}
+
+#imagem_sobre{
+    width: 500px;
+    padding-left: 80px;
+}
+
+#texto_sobre{
+    text-align: left;
+    width: 900px;
 }
 
 .carrossel{
