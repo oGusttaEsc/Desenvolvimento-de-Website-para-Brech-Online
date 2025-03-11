@@ -1,28 +1,36 @@
 
-body{background-color: rgba(88, 60, 0, 0.815);
+body{background-color: #57402f;
     text-align: center;
+    color: #e0d5c8;
+    font-size: larger;
+    font-family: serif;
+}
+
+footer{
+    background-color: #3e2e1f;
+    color: #e0d5c8;
 }
 
 #navbar{
-    border-radius: 2px;
-    border: solid;
     width: 100%;
-    background-color: rgba(63, 43, 0, 0.815);
+    border: black, solid, 0px;
+    background-color: #3e2e1f;
     text-align: center;
     display: flex;
+    color: #e0d5c8;
 }
 
 .icone{
     text-align: center;
-    width: 100px;
+    width: 70px;
     margin-right: 80px;
     padding: 10px;
 }
 
 .texto_navbar{
     text-align: center;
-    margin: 35px 0 0 60px;
-    color: #fff;
+    margin: 25px 0 0 60px;
+    color: #e0d5c8;
 }
 
 #texto_inicial{
@@ -46,7 +54,7 @@ button{
 
 .slideshow{
     position: relative;
-
+    padding: 50px 0px 238px 0px;
 }
 
 .slides{
@@ -124,12 +132,19 @@ button{
     display: flex;
     text-align: center;
     align-items: center;
-    padding: 200px;
+    padding: 100px 300px 100px 300px ;
+    background-color: #3e2e1f ;
+    color: #e0d5c8;
+}
+
+#img_sobre{
+    padding-left: 80px;
 }
 
 #imagem_sobre{
     width: 500px;
-    padding-left: 80px;
+    border: #6b4f3a, solid, 4px;
+    border-radius: 4px;
 }
 
 #texto_sobre{
