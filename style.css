@@ -9,6 +9,7 @@ body{background-color: #57402f;
 footer{
     background-color: #3e2e1f;
     color: #e0d5c8;
+    padding: 10px 0 10px 0;
 }
 
 #navbar{
@@ -152,10 +153,34 @@ button{
     width: 900px;
 }
 
+#space{
+    padding: 50px 0 50px 0 ;
+}
+
 .carrossel{
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
+    background-color: rgb(221, 221, 221);
 }
 
-.container-imagens
+.border_top{
+    border: ;
+    border-radius: 5px;
+    border-top: rgb(221, 221, 221), solid, 5px;
+}
+
+.container{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.container img{
+    scroll-snap-align: start;
+    flex: 0 0 calc(50% - 5px);
+    max-width: 100%;
+}
