@@ -32,6 +32,7 @@ footer{
     text-align: center;
     margin: 25px 0 0 60px;
     color: #e0d5c8;
+    text-decoration: none;
 }
 
 #texto_inicial{
@@ -183,4 +184,114 @@ button{
     scroll-snap-align: start;
     flex: 0 0 calc(50% - 5px);
     max-width: 100%;
+}
+
+.containe{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.containe:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.btn{
+    width: 100px;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.containe{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.modalcorpo{
+    color: #fff;
+    padding: 4px;
+    border-radius: 15px;
+}
+
+.modalcorpo p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fechar{
+    font-size: 15px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    padding: 4.5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.contato{
+    font-size: 15px;
+}
+
+#formulario{
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+fieldset{
+    border: #fff solid 3px;
+    border-radius: 3px;
+}
+legend{
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    color: #3e2e1f;
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+    padding-left: 25px;
+}
+.inputUser:focus ~ .labelInput, 
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: #fff;
+}
+
+#datanasc{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #fff;
 }
